@@ -21,7 +21,7 @@ const BarChart = ({ data, year }) => {
     t('latin_america'),
   ];
 
-  // Prepare data: one object per region, each with product sales
+  // Prepare data: one object per region, each with product sales (sum of quarters)
   const regionData = regions.map((regionLabel) => {
     const regionKey = regionLabel;
     const entry = { region: regionKey };

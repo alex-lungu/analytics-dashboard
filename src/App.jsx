@@ -27,10 +27,17 @@ function App() {
     (d) => d.product === selectedProduct && d.region === selectedRegion
   );
 
-  // Filter data for bar chart (latest quarter of each product/region in selected year)
-  const barChartData = salesData.filter(
-    (d) => d.year === selectedYear && d.quarter === "Q4"
-  );
+  // Filter data for bar chart: sum all quarters for each product/region in selected year
+  const barChartData = [];
+  PRODUCTS.forEach((product) => {
+    REGIONS.forEach((region) => {
+      const yearData = salesData.filter(
+        (d) => d.year === selectedYear && d.product === product && d.region === region
+      );
+      const totalSales = yearData.reduce((sum, d) => sum + d.sales, 0);
+      barChartData.push({ product, region, year: selectedYear, sales: totalSales });
+    });
+  });
 
   return (
     <>
