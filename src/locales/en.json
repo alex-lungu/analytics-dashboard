@@ -1,6 +1,6 @@
 {
   "title": "Global Tech Product Sales Dashboard",
-  "description": "This dashboard provides an interactive visualization of quarterly sales data for key technology products (smartphones, laptops, tablets, and smartwatches) from 2018 to 2023 across four major regions: North America, Europe, Asia, and Latin America.\nNote: All data displayed on this dashboard is synthetic and generated for demonstration purposes only.",
+  "description": "This dashboard provides an interactive visualization of sales data for key technology products (smartphones, laptops, tablets, and smartwatches) from 2018 to 2023 across four major regions: North America, Europe, Asia, and Latin America. The line chart shows quarterly sales trends for selected products and regions, while the bar chart displays annual sales comparisons across all products and regions.\nNote: All data displayed on this dashboard is synthetic and generated for demonstration purposes only.",
   "product": "Product",
   "region": "Region",
   "year": "Year",

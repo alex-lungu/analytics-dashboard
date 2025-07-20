@@ -1,6 +1,6 @@
 {
   "title": "Tableau de bord des ventes mondiales de produits technologiques",
-  "description": "Ce tableau de bord fournit une visualisation interactive des données de ventes trimestrielles pour les principaux produits technologiques (smartphones, ordinateurs portables, tablettes et montres intelligentes) de 2018 à 2023 dans quatre grandes régions : Amérique du Nord, Europe, Asie et Amérique latine.\nRemarque : Toutes les données affichées sur ce tableau de bord sont synthétiques et générées à des fins de démonstration uniquement.",
+  "description": "Ce tableau de bord fournit une visualisation interactive des données de ventes pour les principaux produits technologiques (smartphones, ordinateurs portables, tablettes et montres intelligentes) de 2018 à 2023 dans quatre grandes régions : Amérique du Nord, Europe, Asie et Amérique latine. Le graphique linéaire montre les tendances de ventes trimestrielles pour les produits et régions sélectionnés, tandis que le graphique en barres affiche les comparaisons de ventes annuelles pour tous les produits et régions.\nRemarque : Toutes les données affichées sur ce tableau de bord sont synthétiques et générées à des fins de démonstration uniquement.",
   "product": "Produit",
   "region": "Région",
   "year": "Année",
